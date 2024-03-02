@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 // database connection
 mongoose
-  .connect("mongodb://127.0.0.1:27017/prepinstatask")
+  .connect("database_link")
   .then(() => console.log("database connected succesfully!!"))
   .catch((err) => console.log("database not connected ", err));
 
